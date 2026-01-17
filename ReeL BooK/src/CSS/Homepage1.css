@@ -1,0 +1,57 @@
+  .image{
+      width: 250px;
+      border-radius: 30px;
+  }
+  .Title{
+      background-color: pink;
+      align-items: center;
+  }
+  .date{
+      margin: 9px 90px;    
+      background-color: chartreuse;
+  }
+  .con{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    justify-items: center;
+    margin:30px;
+  }
+  .image:hover{
+      transform: scale(1.03);
+      box-shadow: 2px 2px 30px 10px blue;
+
+  }
+  body{
+      background-color: rgb(163, 157, 204);
+  }
+
+  .Main_image {
+    display: flex;
+  }
+  .head {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .button{
+    background-color: #ff9800;
+    padding: 10px;
+    width: 90px;
+    border-radius: 30px;
+  }
+  .button:hover{
+    transform: scale(1.09);
+    background-color: aqua;
+  }
+  .butalign{
+    text-align: right;
+  }
+
+  .heading2{
+    text-align: center;
+  
+  }
+  .main{
+    color:rgb(82, 236, 21);
+  }

@@ -1,0 +1,12 @@
+.img1{
+  mix-blend-mode: multiply;
+  border-radius: 100px;
+  width: 80px;
+}
+
+.img2{
+    margin: 0px 40px;
+     mix-blend-mode: multiply;
+  border-radius: 170px;
+  width: 80px;
+}

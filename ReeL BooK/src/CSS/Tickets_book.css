@@ -1,0 +1,9 @@
+.hr{
+    margin: 20px;
+    border: 8px solid rgb(236, 226, 226);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 9px aqua;
+}
+.hr:hover{
+    transform: scale(1.01);
+}

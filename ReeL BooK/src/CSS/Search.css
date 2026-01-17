@@ -1,0 +1,36 @@
+.div2{
+    margin: 30px 40px;
+}
+.take{
+    display: flex;
+    border: none;
+    background-color: aliceblue;
+    border-bottom: 1px solid;
+    background-color: rgb(163, 157, 204);
+    margin: 20px 1100px;
+}
+
+.search{
+    background-color: orange;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    margin: 0px 1200px;
+}
+
+.image2{
+    border-radius: 10px;
+}
+.book{
+    margin: 10px 40px;
+    padding: 5px 30px;
+    border: 2px solid;
+    background-color:greenyellow;
+    border-radius: 20px;
+    animation: nav 1s infinite;
+    font-size: 15px;
+}
+
+@keyframes nav{
+    100%{transform: scale(1.19);}
+}

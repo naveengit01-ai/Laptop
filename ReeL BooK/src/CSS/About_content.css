@@ -1,0 +1,30 @@
+.table{
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 170px;
+}
+.th{
+    background-color: green;
+    color: wheat;
+    padding: 12px;
+}
+.tr:nth-child(even){
+    background-color: rgb(235, 91, 8);
+}
+.td{
+    /* border: 2px solid black; */
+    padding: 12px;
+    border-top: none;
+}
+.tr{
+    background-color: pink;
+}
+.tr:hover{
+    background-color: rgb(127, 66, 139);
+    transition: 0.3s;
+}
+.about{
+    margin: 30px 400px;
+}

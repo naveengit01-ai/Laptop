@@ -1,0 +1,51 @@
+POST http://localhost:5000/add/data
+Content-Type: application/json
+
+{
+    "name":"vardhan",
+    "location":"ongole",
+    "account_type":"Savings",
+    "balance":1000
+}
+
+GET http://localhost:5000/data
+
+GET http://localhost:5000/data/7
+
+DELETE http://localhost:5000/delete/5
+
+PUT http://localhost:5000/deposit/7
+Content-Type: application/json
+
+{
+    "balance":400
+}
+
+PUT http://localhost:5000/withdraw/7
+Content-Type: application/json
+
+{
+    "balance":500
+}
+
+# Transfer money to one account to another account 
+
+PUT http://localhost:5000/transfer/7/6
+Content-Type: application/json
+
+{
+    "money":200
+}
+
+
+
+POST http://localhost:5000/add/data
+Content-Type: application/json
+
+{
+    "user":"naveen",
+    "password":"kolana"
+}
+
+
+GET http://localhost:5000/tables

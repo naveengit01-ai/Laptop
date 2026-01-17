@@ -1,0 +1,82 @@
+/* Navbar.css */
+.hedding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #141E30, #243B55);
+  color: #fff;
+  padding: 15px 40px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.hedding h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.hedding h1:hover {
+  transform: scale(1.05);
+  color: #00d4ff;
+}
+
+.nav nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #00d4ff;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav a:hover {
+  color: #00d4ff;
+}
+
+@media (max-width: 768px) {
+  .hedding {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav nav {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+}
+
+.logout{
+  background-color: #00d4ff;
+  width: 80px;
+  padding: 5px;
+  border-radius: 30px;
+  font: optional;
+}
+.logout:hover{
+  background-color: orange;
+  transform: scale(1.08);
+}
